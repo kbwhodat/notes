@@ -1,0 +1,19 @@
+* This is the line heading
+	This is my {** Main Heading}[heading]
+	{:olasumbo_birthday:}
+
+** Main Heading
+	 - some other heading
+	 - ( ) eggs
+	 - ( ) toast
+	 - ( ) bread
+	 - ( ) {https://google.com}[Google]
+
+*** sub heading
+		- (x) Aiazing stats
+		-- (x) Is it done yet
+		- {https://github.com/}[Github]
+		- {https://github.com}[Github]
+		- Wow so crazy
+
+

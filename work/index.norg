@@ -1,19 +1,8 @@
-* This is the line heading
-	This is my {** Main Heading}[heading]
-	{:olasumbo_birthday:}
+* Projects
+	- {:Datadog/POC:}[Datadog] - Installing Datadog and configuring it within a Dockerfile
 
-** Main Heading
-	 - some other heading
-	 - ( ) eggs
-	 - ( ) toast
-	 - ( ) bread
-	 - ( ) {https://google.com}[Google]
+* Incidents
+	- {:incidents/journal:}[Summary] - Notes of past and current incidents
 
-*** sub heading
-		- (x) Aiazing stats
-		-- (x) Is it done yet
-		- {https://github.com/}[Github]
-		- {https://github.com}[Github]
-		- Wow so crazy
-
-
+* Quick Notes
+	{:notes:}[notes]
