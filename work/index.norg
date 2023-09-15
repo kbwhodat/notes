@@ -1,8 +1,0 @@
-* Projects
-	- {:Datadog/POC:}[Datadog] - Installing Datadog and configuring it within a Dockerfile
-
-* Incidents
-	- {:incidents/journal:}[Summary] - Notes of past and current incidents
-
-* Quick Notes
-	{:notes:}[notes]
