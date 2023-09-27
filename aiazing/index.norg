@@ -1,0 +1,18 @@
+* Aiazing notes
+	- (-) to-do list
+	-- (x) Make *sure* to fix the keyboard issue for Android
+	-- (x) Double check that the ios payment work properly
+	-- (-) Plaid unlink
+	-- (-) notification link
+	-- (-) bank link subscription pause
+
+
+* Notes
+	- pause subscription in plaid for member center
+	- set long in to true.
+	- In apollo make sure to check if the subscription is active. If not, call the pause bank api
+
+* Notification
+	- register for push notification async -- Porfolio screen line 75
+
+
