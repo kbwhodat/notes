@@ -1,18 +1,2 @@
-* Test
-	- {:SRE book:}
-** Test 2
-	 _This_ is pretty cool *stuff*
-** {/ SRE book.norg.gpg}[SRE book]
-** (x) Shopping
-	 - ( ) Bread
-	 - (x) Butter
-	 - (x) /Milk/
-	 - ( ) *hello*
-	 - ( ) no
-	 - ( ) Testing this stuff please
-	 - ( ) ok
-
-
-
-- (-) unsure
-	 - (-) kato
+* *Neorg notes*
+	- {https://github.com/nvim-neorg/neorg/wiki/Todo-Items}[Neorg Todo items doc]
