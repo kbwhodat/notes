@@ -1,0 +1,16 @@
+@document.meta
+title: Books
+description: 
+authors: katob
+categories: 
+created: 2023-10-11T16:22:40-0500
+updated: 2023-11-16T03:32:53-0500
+version: 1.1.1
+@end
+
+* ( ) Books
+	-- (-) {/ real_world_sre_notes.norg.gpg}[Read-World SRE]
+
+- (-) *Learning Golang*
+-- (-) {:golang-week1:}[Golang Week 1] 
+
