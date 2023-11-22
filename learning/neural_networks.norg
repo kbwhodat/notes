@@ -1,0 +1,26 @@
+
+* Notes
+	- Neural networks learn iteratively, each pass trhough the training data is called *epoch*
+	- During each epoch, the network adjusts its weights in response and the errors of the previous epoch
+	- Through *convergence* the model should imporove overtime
+
+** Machine Learning Process
+	 1. Load and Preprocess data
+	 2. Train the Model
+	 3. Evaluate the Model
+
+** Loss Printing
+	 - Helps monitor the model's progress
+*** What is Loss?
+		- Also referred to as *cost* or *error*
+		- Is a measure of how far a mode's predictions are from the actuals target values
+		- Classification tasks => CIFAR-10 = Cross-Entropy Loss
+		- Regression tasks = Mean squared error (MSE)
+*** Purpose of Loss Priniting
+		- A continuosly decreasing loss means that the model is learning effectively
+		- Loss prining allow you to see the loss changes over time.
+*** Detecting Overfitting and Underfitting
+		- If the loss stops decreasing and starts to increase, this might be a sign of overfitting.
+		- If the loss decreases very slowly or not at all, the model might be underfitting.
+*** Hyperparamter Tuning
+		- Seeing the loss can help in tuning hyperparameters like learning rate, batch size, or model.
