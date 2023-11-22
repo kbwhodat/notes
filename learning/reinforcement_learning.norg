@@ -1,6 +1,0 @@
-
-* Notes
-** Basics
-	 - An agent learns to make decisions by interacting with an environment. The agent recieved feedback in the form of rewards or penalties and learns a policy to maximize cumulative rewards over time.
-	 - RL focuses on learning a sequence of actions or decisions
-
