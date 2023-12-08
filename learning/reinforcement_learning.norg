@@ -1,0 +1,39 @@
+
+* Notes
+** Projects
+	 - {:sonicthehedgehog:}[SonicTheHedgehog Project]
+
+** Basics
+	 - An agent learns to make decisions by interacting with an environment. The agent recieved feedback in the form of rewards or penalties and learns a policy to maximize cumulative rewards over time.
+	 - RL focuses on learning a sequence of actions or decisions
+
+** Retro fundlementals
+	 - retro.make() => sets up an environment for a game
+	 - env.reset() => starts or resets the game environment to its initial state
+	 - env.action_space.sample() => selects a random action from the available actions in the game(moving lift, rightk, jumping)
+	 - env.step(action) => applies the action
+	 -- obs => new state of the env after the action
+	 -- reward => the reward received after taking the action
+	 -- done => A boolean indication whether the current game episode/level is finished
+	 -- info => Additional information a bout the environment
+
+** RL Algorithms
+	 - Q=Learning => environments with high-dimensional observation spaces like video games
+	 - Policy Gradient Methods => REINFORCE or Proximal Policy Optmization (PPO)
+
+** Episodes
+	 - Refers to a complete run of the environment from start to finish.
+
+** Action Space
+	 - Defines the set of possible actons that an agent can take in a given environment.
+	 - Arange of moves or decisions available to a player in a game
+
+** Epsilon
+	 - A low epsilon value can cause can  cause the agent not to explore enough to learn from its mistakes
+
+** Most important componenets to get right
+	 - *Reward Function* - This defines the feedback signal that guides the agent towards the desired behavior. It needs to accurately capture the goal of the task. Poor reward design can lead to unexpected or undesired agent behavior.
+	 - *Neural Network Architecture* - The network encodes the policy and value function. Its architecture directly impacts representation learning and feature extraction from raw sensory input. Poor architectures may fail to learn effectively.
+	 - *Exploration vs Exploitation* - The agent must balance exploiting known rewards while still exploring to find potentially better options. The epsilon-greedy method is common, but decay schedule and final epsilon value impact performance.
+	 - *Experience Replay* - Breaking temporal correlations and allowing greater sample efficiency via reuse of experience. The replay buffer size and sampling methods impact learning.
+	 - *Hyperparameters* - LR, batch size, gamma/discount factor, target network sync period etc. can have large effects on rate of learning, stability, sample efficiency and final performance.
