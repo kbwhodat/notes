@@ -1,0 +1,14 @@
+
+* Ways to resolve
+	- In *.xinitrc* add *xrandr --auto*. This will automatically set up the display outputs.
+	- In */etc/X11/xorg.conf* add:
+	  @code
+			Section "ServerFlags"
+				Option "BlankTime" "0"
+				Option "StandbyTime" "0"
+				Option "SuspendTime" "0"
+				Option "OffTime" "0"
+				Option "DPMS" "false"
+			EndSection
+		@end
+

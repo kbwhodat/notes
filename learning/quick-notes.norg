@@ -1,0 +1,21 @@
+
+* Notes
+	# Allows you to keep the pane open. Good for troubleshooting and debugging
+	@code
+		set remain-on-exit on
+	@end
+
+* Gpg stuff
+	- {:gpg-stuff:}[Gpg notes]
+
+* Audio
+	- {:audio/arch_audio_notes:}[Arch linux Audio notes]
+
+* I3 how I am using lock screen
+	- {:lock-screen-arch-linux:}[Lock screen notes]
+
+* Grey Hack games notes
+	- {:grayhack/notes:}[notes]
+
+* How to resolve issue where screen doesn't detect monitor after login or suspend
+	- {:resolve-black-screen:}[Ways to resolve black screen notes]
