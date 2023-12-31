@@ -1,0 +1,34 @@
+
+* Starting
+	- Import *package main*
+	- Need to install the *fmt* package
+	@code go
+		fmt.Println 
+	@end
+
+** Call external package
+	@code go
+		import "rsc.io/quote"
+	@end
+
+** Pull in dependencies
+	 - go mod init <file>
+	 - *go mod tidy*
+	 - go run <file>
+
+** Tracks code's dependencies
+	 - The go.mod allows you to track you dependencies from "go mod init example.com/greetings"
+
+** Functions
+	 - A function with a captial name can be called by a function not in the same package -- "exported name"
+	
+** Variables
+	 - var message string
+
+** Package main
+	 - If you name a package "main" the code has to be execute from the main package
+
+** Point module to a local directory
+	 - go mod edit -replace example.com/greetings=../greetings
+	 - Instead of a *replace* directive there's also a *require* directive
+
